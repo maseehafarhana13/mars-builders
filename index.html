@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MARS BUILDERS</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #167762;
+    }
+    header {
+        background-color: #167762;
+        color: wheat;
+        padding: 15px;
+        text-align: center;
+    }
+    header img {
+        max-height: 80px;
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+    nav {
+        background-color:#022e24;
+        padding: 10px;
+        text-align: center;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: inline-block;
+    }
+    nav a:hover {
+        background-color: #022e2f;
+        border-radius: 5px;
+    }
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #fff3ec;
+        padding: 30px;
+        gap: 20px;
+    }
+    .hero img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 0; /* Square image */
+        border: 5px solid #010501;
+    }
+    .hero-text {
+        max-width: 500px;
+    }
+    section {
+        padding: 20px;
+        max-width: 1000px;
+        margin: auto;
+    }
+    .services {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .service {
+        flex: 1 1 300px;
+        background-color: white;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .contact-info {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .contact-info img {
+        width: 120px;
+        height: 120px;
+        border-radius: 0; /* Square image */
+        border: 3px solid #000000;
+        object-fit: cover;
+    }
+    footer {
+        background-color: #03221b;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .owner-name {
+  font-size: 1rem;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+/* Fade-in + Slide-up animation */
+@keyframes fadeSlideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply animation to main sections */
+header, .about, .contact, img {
+    animation: fadeSlideUp 1s ease-out forwards;
+}
+
+/* Delay different sections for a staggered effect */
+header { animation-delay: 0.2s; }
+.about { animation-delay: 0.4s; }
+.contact { animation-delay: 0.6s; }
+img { animation-delay: 0.8s; }
+
+
+</style>
+</head>
+<body>
+
+<header>
+    
+    <img src="logo.jpeg" alt="Mars Builders Logo">
+    <h1>MARS BUILDERS</h1>
+    <p>Building Your Dreams with Strength & Style</p>
+    <span class="owner-name">ANSAR MOHAMED SHAKEEL</span>
+    <p>MANAGING DIRECTOR</p>
+</header>
+
+<nav>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    <img src="imagesss.jpeg" alt="Your Photo">
+    <div class="hero-text">
+        <h2>Welcome to Mars Builders</h2>
+        <p>We turn your dreams into reality with premium duplex projects, prime land promotions, and top-quality building materials.From property promotion to construction supplies, Mars Builders is your trusted engineer building contractor — delivering excellence, trust, and value in every project.We're your one-stop destination for duplex homes, land investment opportunities, and reliable building material contracting. As a professional engineer building contractor, we combine smart investments with superior construction quality.Building trust, creating value, and delivering quality — that’s the Mars Builders promise</p>
+    </div>
+</div>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Duplex / Land Promoters</h3>
+            <p>Expert in promoting premium duplex homes and prime land for your dream investment.</p>
+        </div>
+        <div class="service">
+            <h3>Building Material Contractors</h3>
+            <p>Reliable contractors delivering quality building materials for every construction need.</p>
+        </div>
+        
+    </div>
+</section>
+
+
+<section id="projects">
+    <h2>Recent Projects</h2>
+    <p>Successfully completed premium duplex and land development projects with top-grade materials.
+Committed to excellence in every build, from foundation to finish.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+        <img src="imagesss.jpeg" alt="Your Photo">
+        <div>
+            <p><strong>Email:</strong> 07860mdshakeel@gmail.com</p>
+            <p><strong>Phone:</strong> +91 98404 47865 / 98414 47865</p>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <p>© 2025 Mars Builders. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
+
